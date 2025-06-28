@@ -1,0 +1,111 @@
+{
+  "_comment": "SPI自动答题工具配置文件模板 - 请将此文件重命名为config.json并填入真实配置",
+  "_instructions": "详细配置说明请参考 CONFIG_GUIDE.md 文件",
+  
+  "api": {
+    "_comment": "Azure OpenAI API配置 - 必须配置",
+    "api_key": "YOUR_AZURE_OPENAI_API_KEY",
+    "api_endpoint": "https://your-resource.openai.azure.com/",
+    "api_version": "2024-02-01",
+    "deployment_name": "gpt-4",
+    "model": "gpt-4",
+    "max_tokens": 1000,
+    "temperature": 0.1
+  },
+  
+  "ocr": {
+    "_comment": "OCR文字识别配置 - 针对日文优化",
+    "language": "jpn",
+    "psm": 6,
+    "oem": 3,
+    "dpi": 300,
+    "preprocess": {
+      "resize_factor": 2.0,
+      "blur_kernel": 1,
+      "threshold_type": "adaptive"
+    }
+  },
+  
+  "hotkey": {
+    "_comment": "热键配置 - 可根据个人习惯调整",
+    "trigger_key": "F12",
+    "exit_key": "F11"
+  },
+  
+  "excel": {
+    "_comment": "Excel题库配置 - 高度可定制",
+    "file_path": "questions.xlsx",
+    "sheets_config": {
+      "数学问题": {
+        "_comment": "示例配置：题目在A列，选项在B-E列，答案在F列",
+        "question_column": "A",
+        "answer_columns": ["B", "C", "D", "E"],
+        "correct_answer_column": "F"
+      },
+      "语言问题": {
+        "_comment": "可以配置不同的列结构",
+        "question_column": "A", 
+        "answer_columns": ["B", "C", "D"],
+        "correct_answer_column": "E"
+      },
+      "逻辑问题": {
+        "_comment": "支持中文列名",
+        "question_column": "题目",
+        "answer_columns": ["选项A", "选项B", "选项C", "选项D"],
+        "correct_answer_column": "正确答案"
+      }
+    },
+    "fuzzy_match": {
+      "_comment": "模糊匹配配置 - 用于提高题目匹配准确率",
+      "enabled": true,
+      "threshold": 0.8,
+      "max_results": 3
+    }
+  },
+  
+  "gui": {
+    "_comment": "GUI悬浮窗口配置",
+    "window": {
+      "width": 300,
+      "height": 150,
+      "alpha": 0.9,
+      "always_on_top": true,
+      "initial_position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    "font": {
+      "_comment": "建议使用支持日文的字体",
+      "family": "Arial Unicode MS",
+      "size": 12,
+      "weight": "bold"
+    },
+    "colors": {
+      "_comment": "颜色配置 - 经典绿色护眼主题",
+      "background": "#000000",
+      "text": "#00FF00",
+      "border": "#FFFFFF"
+    }
+  },
+  
+  "screenshot": {
+    "_comment": "屏幕截图配置",
+    "region": {
+      "_comment": "截图区域，0,0,800,600表示从左上角截取800x600区域",
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 600
+    },
+    "auto_detect": true
+  },
+  
+  "logging": {
+    "_comment": "日志配置",
+    "level": "INFO",
+    "file": "spi_auto_answer.log",
+    "max_size": "10MB",
+    "backup_count": 3
+  }
+}

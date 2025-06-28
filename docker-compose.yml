@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  spi-auto-answer:
+    build: .
+    container_name: spi-auto-answer
+    volumes:
+      - ./questions.xlsx:/app/questions.xlsx
+      - ./config.json:/app/config.json
+      - ./logs:/app/logs
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    environment:
+      - DISPLAY=${DISPLAY}
+    network_mode: host
+    privileged: true
+    stdin_open: true
+    tty: true
+    restart: unless-stopped

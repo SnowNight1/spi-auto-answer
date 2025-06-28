@@ -1,0 +1,88 @@
+{
+  "api": {
+    "api_key": "YOUR_AZURE_OPENAI_API_KEY",
+    "api_endpoint": "https://your-resource.openai.azure.com/",
+    "api_version": "2024-02-01",
+    "deployment_name": "gpt-4",
+    "model": "gpt-4",
+    "max_tokens": 1000,
+    "temperature": 0.1
+  },
+  "ocr": {
+    "language": "jpn",
+    "psm": 6,
+    "oem": 3,
+    "dpi": 300,
+    "preprocess": {
+      "resize_factor": 2.0,
+      "blur_kernel": 1,
+      "threshold_type": "adaptive"
+    }
+  },
+  "hotkey": {
+    "trigger_key": "F12",
+    "exit_key": "F11"
+  },
+  "excel": {
+    "file_path": "questions.xlsx",
+    "sheets_config": {
+      "数学问题": {
+        "question_column": "A",
+        "answer_columns": ["B", "C", "D", "E"],
+        "correct_answer_column": "F"
+      },
+      "语言问题": {
+        "question_column": "A", 
+        "answer_columns": ["B", "C", "D"],
+        "correct_answer_column": "E"
+      },
+      "逻辑问题": {
+        "question_column": "题目",
+        "answer_columns": ["选项A", "选项B", "选项C", "选项D"],
+        "correct_answer_column": "正确答案"
+      }
+    },
+    "fuzzy_match": {
+      "enabled": true,
+      "threshold": 0.8,
+      "max_results": 3
+    }
+  },
+  "gui": {
+    "window": {
+      "width": 300,
+      "height": 150,
+      "alpha": 0.9,
+      "always_on_top": true,
+      "initial_position": {
+        "x": 100,
+        "y": 100
+      }
+    },
+    "font": {
+      "family": "Arial Unicode MS",
+      "size": 12,
+      "weight": "bold"
+    },
+    "colors": {
+      "background": "#000000",
+      "text": "#00FF00",
+      "border": "#FFFFFF"
+    }
+  },
+  "screenshot": {
+    "region": {
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 600
+    },
+    "auto_detect": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "spi_auto_answer.log",
+    "max_size": "10MB",
+    "backup_count": 3
+  }
+}

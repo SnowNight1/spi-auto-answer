@@ -1,0 +1,12 @@
+pytesseract==0.3.10
+requests==2.31.0
+keyboard==0.13.5
+pyautogui==0.9.54
+pandas==2.0.3
+openpyxl==3.1.2
+pillow==10.0.0
+numpy==1.24.3
+fuzzywuzzy==0.18.0
+python-levenshtein==0.21.1
+opencv-python==4.8.0.76
+tkinter-tooltip==2.1.0

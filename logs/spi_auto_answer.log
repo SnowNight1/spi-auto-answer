@@ -1,0 +1,132 @@
+2025-06-28 13:02:30,864 - root - INFO - SPI自动答题工具启动中...
+2025-06-28 13:02:30,864 - root - INFO - 初始化OCR处理器...
+2025-06-28 13:02:30,865 - root - ERROR - 缺少关键依赖: pyautogui
+2025-06-28 13:02:30,865 - root - ERROR - 请运行以下命令安装缺失的依赖:
+2025-06-28 13:02:30,865 - root - ERROR -   pip install pyautogui
+2025-06-28 13:02:30,883 - root - ERROR - Tesseract配置失败: 找不到可用的Tesseract安装
+2025-06-28 13:02:30,883 - root - ERROR - 请确保已正确安装Tesseract OCR:
+2025-06-28 13:02:30,883 - root - ERROR -   Ubuntu/Debian: sudo apt-get install tesseract-ocr tesseract-ocr-jpn
+2025-06-28 13:02:30,883 - root - ERROR -   macOS: brew install tesseract tesseract-lang
+2025-06-28 13:02:30,883 - root - ERROR -   Windows: 下载并安装 https://github.com/UB-Mannheim/tesseract/wiki
+2025-06-28 13:02:30,883 - root - INFO - 初始化Excel题库处理器...
+2025-06-28 13:02:30,883 - root - WARNING - Excel文件不存在: questions.xlsx
+2025-06-28 13:02:30,883 - root - INFO - 初始化API处理器...
+2025-06-28 13:02:30,884 - root - INFO - 初始化GUI悬浮窗口...
+2025-06-28 13:02:30,928 - root - INFO - 悬浮窗口创建成功
+2025-06-28 13:02:30,928 - root - ERROR - GUI线程异常: Calling Tcl from different apartment
+2025-06-28 13:02:30,928 - root - INFO - 初始化热键监听器...
+2025-06-28 13:02:30,929 - root - INFO - 触发回调函数已设置
+2025-06-28 13:02:30,929 - root - INFO - 状态回调函数已设置
+2025-06-28 13:02:30,929 - root - INFO - 所有模块初始化完成
+2025-06-28 13:02:30,929 - root - INFO - 信号处理器设置完成
+2025-06-28 13:02:30,929 - root - INFO - 应用初始化完成
+2025-06-28 13:02:30,945 - root - WARNING - PIL获取屏幕尺寸失败: X get_image failed: error 8 (73, 0, 1080)
+2025-06-28 13:02:30,945 - root - WARNING - 无法获取屏幕尺寸，使用默认值 1920x1080
+2025-06-28 13:02:30,945 - root - INFO - 启动信息已显示
+2025-06-28 13:02:30,945 - root - ERROR - 注册热键失败: You must be root to use this library on linux.
+2025-06-28 13:02:30,946 - root - ERROR - 启动热键监听失败: You must be root to use this library on linux.
+2025-06-28 13:02:30,946 - root - ERROR - 启动热键监听失败
+2025-06-28 13:02:30,946 - root - INFO - 正在关闭应用...
+2025-06-28 13:02:30,946 - root - ERROR - 注销热键失败: '_KeyboardListener' object has no attribute 'blocking_hotkeys'
+2025-06-28 13:02:30,946 - root - INFO - 热键监听已停止
+2025-06-28 13:02:30,947 - root - INFO - 悬浮窗口已销毁
+2025-06-28 13:02:30,947 - root - INFO - 退出统计: {'total_requests': 0, 'excel_matches': 0, 'api_calls': 0, 'successful_answers': 0, 'failed_answers': 0, 'start_time': 1751083350.9301112, 'runtime': 0.017714500427246094, 'excel_stats': {'total_sheets': 0, 'sheets': {}, 'total_questions': 0}, 'hotkey_stats': {'total_triggers': 0, 'successful_triggers': 0, 'failed_triggers': 0, 'start_time': None, 'runtime': 0, 'success_rate': 0}, 'api_stats': {'total_requests': 0, 'successful_requests': 0, 'failed_requests': 0, 'total_tokens_used': 0, 'average_response_time': 0.0}}
+2025-06-28 13:02:30,948 - root - INFO - 应用已关闭
+2025-06-28 13:02:30,948 - root - INFO - 正在关闭应用...
+2025-06-28 13:02:30,948 - root - ERROR - 注销热键失败: '_KeyboardListener' object has no attribute 'blocking_hotkeys'
+2025-06-28 13:02:30,948 - root - INFO - 热键监听已停止
+2025-06-28 13:02:30,948 - root - ERROR - 销毁窗口失败: can't invoke "destroy" command: application has been destroyed
+2025-06-28 13:02:30,948 - root - INFO - 退出统计: {'total_requests': 0, 'excel_matches': 0, 'api_calls': 0, 'successful_answers': 0, 'failed_answers': 0, 'start_time': 1751083350.9301112, 'runtime': 0.01875162124633789, 'excel_stats': {'total_sheets': 0, 'sheets': {}, 'total_questions': 0}, 'hotkey_stats': {'total_triggers': 0, 'successful_triggers': 0, 'failed_triggers': 0, 'start_time': None, 'runtime': 0, 'success_rate': 0}, 'api_stats': {'total_requests': 0, 'successful_requests': 0, 'failed_requests': 0, 'total_tokens_used': 0, 'average_response_time': 0.0}}
+2025-06-28 13:02:30,949 - root - INFO - 应用已关闭
+2025-06-28 13:05:38,714 - root - INFO - SPI自动答题工具启动中...
+2025-06-28 13:05:38,714 - root - INFO - 初始化OCR处理器...
+2025-06-28 13:05:38,715 - root - ERROR - 缺少关键依赖: pyautogui
+2025-06-28 13:05:38,715 - root - ERROR - 请运行以下命令安装缺失的依赖:
+2025-06-28 13:05:38,715 - root - ERROR -   pip install pyautogui
+2025-06-28 13:05:38,738 - root - INFO - Tesseract版本: 5.3.4 (路径: /usr/bin/tesseract)
+2025-06-28 13:05:38,751 - root - INFO - 日文语言包已安装
+2025-06-28 13:05:38,752 - root - INFO - 初始化Excel题库处理器...
+2025-06-28 13:05:38,752 - root - WARNING - Excel文件不存在: questions.xlsx
+2025-06-28 13:05:38,752 - root - INFO - 初始化API处理器...
+2025-06-28 13:05:38,752 - root - INFO - 初始化GUI悬浮窗口...
+2025-06-28 13:05:38,796 - root - INFO - 悬浮窗口创建成功
+2025-06-28 13:05:38,796 - root - ERROR - GUI线程异常: Calling Tcl from different apartment
+2025-06-28 13:05:38,796 - root - INFO - 初始化热键监听器...
+2025-06-28 13:05:38,797 - root - INFO - 触发回调函数已设置
+2025-06-28 13:05:38,797 - root - INFO - 状态回调函数已设置
+2025-06-28 13:05:38,797 - root - INFO - 所有模块初始化完成
+2025-06-28 13:05:38,797 - root - INFO - 信号处理器设置完成
+2025-06-28 13:05:38,797 - root - INFO - 应用初始化完成
+2025-06-28 13:05:38,798 - root - INFO - API请求 URL: https://myai2055.openai.azure.com/openai/deployments/gpt-4.1/chat/completions
+2025-06-28 13:05:39,202 - root - INFO - API响应时间: 0.40秒
+2025-06-28 13:05:39,202 - root - INFO - API响应状态: 200
+2025-06-28 13:05:39,203 - root - INFO - API连接测试成功
+2025-06-28 13:05:39,204 - root - INFO - 正在关闭应用...
+2025-06-28 13:05:39,204 - root - ERROR - 注销热键失败: '_KeyboardListener' object has no attribute 'blocking_hotkeys'
+2025-06-28 13:05:39,204 - root - INFO - 热键监听已停止
+2025-06-28 13:05:39,205 - root - INFO - 悬浮窗口已销毁
+2025-06-28 13:05:39,205 - root - INFO - 退出统计: {'total_requests': 0, 'excel_matches': 0, 'api_calls': 0, 'successful_answers': 0, 'failed_answers': 0, 'start_time': None, 'runtime': 0, 'excel_stats': {'total_sheets': 0, 'sheets': {}, 'total_questions': 0}, 'hotkey_stats': {'total_triggers': 0, 'successful_triggers': 0, 'failed_triggers': 0, 'start_time': None, 'runtime': 0, 'success_rate': 0}, 'api_stats': {'total_requests': 0, 'successful_requests': 0, 'failed_requests': 0, 'total_tokens_used': 0, 'average_response_time': 0.0}}
+2025-06-28 13:05:39,205 - root - INFO - 应用已关闭
+2025-06-28 13:05:50,174 - root - INFO - SPI自动答题工具启动中...
+2025-06-28 13:05:50,174 - root - INFO - 初始化OCR处理器...
+2025-06-28 13:05:50,175 - root - ERROR - 缺少关键依赖: pyautogui
+2025-06-28 13:05:50,175 - root - ERROR - 请运行以下命令安装缺失的依赖:
+2025-06-28 13:05:50,175 - root - ERROR -   pip install pyautogui
+2025-06-28 13:05:50,187 - root - INFO - Tesseract版本: 5.3.4 (路径: /usr/bin/tesseract)
+2025-06-28 13:05:50,198 - root - INFO - 日文语言包已安装
+2025-06-28 13:05:50,198 - root - INFO - 初始化Excel题库处理器...
+2025-06-28 13:05:50,198 - root - WARNING - Excel文件不存在: questions.xlsx
+2025-06-28 13:05:50,198 - root - INFO - 初始化API处理器...
+2025-06-28 13:05:50,199 - root - INFO - 初始化GUI悬浮窗口...
+2025-06-28 13:05:50,244 - root - INFO - 悬浮窗口创建成功
+2025-06-28 13:05:50,244 - root - ERROR - GUI线程异常: Calling Tcl from different apartment
+2025-06-28 13:05:50,244 - root - INFO - 初始化热键监听器...
+2025-06-28 13:05:50,245 - root - INFO - 触发回调函数已设置
+2025-06-28 13:05:50,245 - root - INFO - 状态回调函数已设置
+2025-06-28 13:05:50,245 - root - INFO - 所有模块初始化完成
+2025-06-28 13:05:50,245 - root - INFO - 信号处理器设置完成
+2025-06-28 13:05:50,245 - root - INFO - 应用初始化完成
+2025-06-28 13:05:50,613 - root - WARNING - 所有OCR配置都未能识别出文字
+2025-06-28 13:05:50,614 - root - INFO - 正在关闭应用...
+2025-06-28 13:05:50,614 - root - ERROR - 注销热键失败: '_KeyboardListener' object has no attribute 'blocking_hotkeys'
+2025-06-28 13:05:50,614 - root - INFO - 热键监听已停止
+2025-06-28 13:05:50,615 - root - INFO - 悬浮窗口已销毁
+2025-06-28 13:05:50,615 - root - INFO - 退出统计: {'total_requests': 0, 'excel_matches': 0, 'api_calls': 0, 'successful_answers': 0, 'failed_answers': 0, 'start_time': None, 'runtime': 0, 'excel_stats': {'total_sheets': 0, 'sheets': {}, 'total_questions': 0}, 'hotkey_stats': {'total_triggers': 0, 'successful_triggers': 0, 'failed_triggers': 0, 'start_time': None, 'runtime': 0, 'success_rate': 0}, 'api_stats': {'total_requests': 0, 'successful_requests': 0, 'failed_requests': 0, 'total_tokens_used': 0, 'average_response_time': 0.0}}
+2025-06-28 13:05:50,615 - root - INFO - 应用已关闭
+2025-06-28 13:05:59,905 - root - INFO - SPI自动答题工具启动中...
+2025-06-28 13:05:59,905 - root - INFO - 初始化OCR处理器...
+2025-06-28 13:05:59,905 - root - ERROR - 缺少关键依赖: pyautogui
+2025-06-28 13:05:59,905 - root - ERROR - 请运行以下命令安装缺失的依赖:
+2025-06-28 13:05:59,906 - root - ERROR -   pip install pyautogui
+2025-06-28 13:05:59,918 - root - INFO - Tesseract版本: 5.3.4 (路径: /usr/bin/tesseract)
+2025-06-28 13:05:59,930 - root - INFO - 日文语言包已安装
+2025-06-28 13:05:59,930 - root - INFO - 初始化Excel题库处理器...
+2025-06-28 13:05:59,930 - root - WARNING - Excel文件不存在: questions.xlsx
+2025-06-28 13:05:59,930 - root - INFO - 初始化API处理器...
+2025-06-28 13:05:59,930 - root - INFO - 初始化GUI悬浮窗口...
+2025-06-28 13:05:59,976 - root - INFO - 悬浮窗口创建成功
+2025-06-28 13:05:59,976 - root - ERROR - GUI线程异常: Calling Tcl from different apartment
+2025-06-28 13:05:59,976 - root - INFO - 初始化热键监听器...
+2025-06-28 13:05:59,977 - root - INFO - 触发回调函数已设置
+2025-06-28 13:05:59,977 - root - INFO - 状态回调函数已设置
+2025-06-28 13:05:59,977 - root - INFO - 所有模块初始化完成
+2025-06-28 13:05:59,977 - root - INFO - 信号处理器设置完成
+2025-06-28 13:05:59,977 - root - INFO - 应用初始化完成
+2025-06-28 13:06:19,579 - root - INFO - 开始处理热键触发事件
+2025-06-28 13:06:19,579 - root - INFO - 截取屏幕区域: (0, 0, 800, 600)
+2025-06-28 13:06:19,595 - root - WARNING - PIL ImageGrab截图失败: X get_image failed: error 8 (73, 0, 1080)
+2025-06-28 13:06:19,595 - root - ERROR - 所有截图方法都失败了
+2025-06-28 13:06:19,595 - root - ERROR - 答题处理失败: OCR识别失败或文本过短
+2025-06-28 13:06:40,890 - root - INFO - 收到信号 15，正在退出...
+2025-06-28 13:06:40,891 - root - INFO - 正在关闭应用...
+2025-06-28 13:06:40,891 - root - ERROR - 注销热键失败: '_KeyboardListener' object has no attribute 'blocking_hotkeys'
+2025-06-28 13:06:40,891 - root - INFO - 热键监听已停止
+2025-06-28 13:06:40,892 - root - INFO - 悬浮窗口已销毁
+2025-06-28 13:06:40,892 - root - INFO - 退出统计: {'total_requests': 1, 'excel_matches': 0, 'api_calls': 0, 'successful_answers': 0, 'failed_answers': 1, 'start_time': 1751083559.9781435, 'runtime': 40.91476774215698, 'excel_stats': {'total_sheets': 0, 'sheets': {}, 'total_questions': 0}, 'hotkey_stats': {'total_triggers': 0, 'successful_triggers': 0, 'failed_triggers': 0, 'start_time': None, 'runtime': 0, 'success_rate': 0}, 'api_stats': {'total_requests': 0, 'successful_requests': 0, 'failed_requests': 0, 'total_tokens_used': 0, 'average_response_time': 0.0}}
+2025-06-28 13:06:40,893 - root - INFO - 应用已关闭
+2025-06-28 13:06:40,893 - root - INFO - 正在关闭应用...
+2025-06-28 13:06:40,893 - root - ERROR - 注销热键失败: '_KeyboardListener' object has no attribute 'blocking_hotkeys'
+2025-06-28 13:06:40,893 - root - INFO - 热键监听已停止
+2025-06-28 13:06:40,893 - root - ERROR - 销毁窗口失败: can't invoke "destroy" command: application has been destroyed
+2025-06-28 13:06:40,893 - root - INFO - 退出统计: {'total_requests': 1, 'excel_matches': 0, 'api_calls': 0, 'successful_answers': 0, 'failed_answers': 1, 'start_time': 1751083559.9781435, 'runtime': 40.91568160057068, 'excel_stats': {'total_sheets': 0, 'sheets': {}, 'total_questions': 0}, 'hotkey_stats': {'total_triggers': 0, 'successful_triggers': 0, 'failed_triggers': 0, 'start_time': None, 'runtime': 0, 'success_rate': 0}, 'api_stats': {'total_requests': 0, 'successful_requests': 0, 'failed_requests': 0, 'total_tokens_used': 0, 'average_response_time': 0.0}}
+2025-06-28 13:06:40,894 - root - INFO - 应用已关闭

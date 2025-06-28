@@ -1,0 +1,50 @@
+{
+  "api": {
+    "api_key": "YOUR_AZURE_OPENAI_API_KEY",
+    "api_endpoint": "YOUR_AZURE_OPENAI_ENDPOINT",
+    "api_version": "2024-02-01",
+    "deployment_name": "gpt-4",
+    "max_tokens": 500,
+    "temperature": 0.3
+  },
+  "ocr": {
+    "language": "jpn",
+    "psm": 6,
+    "oem": 3,
+    "tesseract_cmd": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+    "use_whitelist": true
+  },
+  "screenshot": {
+    "region": {
+      "x": 0,
+      "y": 0,
+      "width": 800,
+      "height": 600
+    },
+    "auto_detect": true
+  },
+  "excel": {
+    "file_path": "questions.xlsx",
+    "sheets": ["Sheet1"],
+    "question_column": "问题",
+    "answer_column": "答案",
+    "similarity_threshold": 0.8
+  },
+  "hotkey": {
+    "trigger_key": "F12",
+    "exit_key": "F11"
+  },
+  "gui": {
+    "transparency": 0.9,
+    "auto_hide_delay": 10,
+    "position": {
+      "x": 100,
+      "y": 100
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "spi_auto_answer.log",
+    "max_size_mb": 10
+  }
+}
